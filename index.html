@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      
+
+      <title>Responsive travel website</title>
+      <link rel="icon" href="images/logo.png">
+      <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/b0e7ca3b23.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <div id="header">
+         <div class="container">
+            <nav>
+               <img src="images/logo.png" class="logo">
+               <ul id="sidemenu">
+                  <li><a href="#header">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+               </ul>
+               <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+               <p>Travel Planner</p>
+               <h1>Find travel ideas for planning <br>your holiday to <br><span>Sri Lanka</span> .</h1>
+
+            </div>
+         </div>
+      </div>
+      <!----------------------------About---------------------------------------------------->
+      <div id="about">
+         <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                  <img src="images/user.png" >
+               </div>
+               <div class="about-col-2">
+                  <h1 class="sub-title">About Us</h1>
+                  <p>See what's waiting for you on your next island getaway.
+                     Savour the unique experiences this island treasure has to offer.Each day on this island promises new experiences, discoveries, and life-long memories. With so much to do,let us help you with these itineraries created just for you!</p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('provide')">Provide</p>
+                        <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('stories')">Stories</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="provide">
+                        <ul>
+                           <li><span>Transport</span><br>Transport Provide</li>
+                           <li><span>Acomodation</span><br>Acomodation Provide</li>
+                           <li><span>Healthcare</span><br>Healthcare Facilities</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experiences">
+                        <ul>
+                           <li><span>Wild</span><br>Nuwara Eliya/Hambanthota/Yala</li>
+                           <li><span>Pristine</span><br>Beruwala/Hikkaduwa/Hambanthota</li>
+                           <li><span>Thrills</span><br>Nuwara Eliya/Negombo/Benthota/Hikkaduwa</li>
+
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="stories">
+                        <ul>
+                           <li><span>Wild</span><br>Nuwara Eliya/Hambanthota/Yala/Hadarana</li>
+                           <li><span>Pristine</span><br>Beruwala/Hikkaduwa/Hambanthota</li>
+                           <li><span>Thrills</span><br>Nuwara Eliya/Negombo/Benthota</li>
+
+                        </ul>
+                     </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!----------------------------Services---------------------------------------------------->
+      <div id="services">
+         <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="services-list">
+               <div>
+                  <i class="fa-solid fa-water"></i>
+                  <h2>Scuba diving</h2>
+                  <p>Experience the thrills of crumbling rocks beneath the feet, head spinning heights and the earth expanding beneath when conquering many mountains of Sri Lanka or take over waterfall climbing with exciting climbs like the rock face of Bambarakanda waterfall, the tallest in the country.</p>
+                  <a href="#">Learn more</a>
+               </div>
+               <div>
+                  <i class="fa-solid fa-fish"></i>
+                  <h2>Pristine</h2>
+                  <p>With nearly 1600 km of of palm fringed Coastline baked to perfection surrounding the country Sri Lanka is the ideal destination for beach bums worldwide.  May it be windsurfing, kayaking, yachting, water skiing, scuba diving or jut lazing around for the perfect tan, Sri Lanka offers it all.</p>
+                  <a href="#">Learn more</a>
+               </div>
+               <div>
+                  <i class="fa-solid fa-sign-hanging"></i>
+                  <h2>Wild</h2>
+                  <p>Meanwhile the ocean around Sri Lanka is home to large families of cetaceans including the mighty blue whales, sperm whales and lively dolphins. Altogether 26 species of cetaceans rule the waters surrounding the country, making it one of the best locations for whale and dolphin watching.  </p>
+                  <a href="#">Learn more</a>
+               </div>
+
+            </div>
+
+         </div>
+      </div>
+      <!----------------------------Portfolio---------------------------------------------------->
+       <div id="portfolio">
+         <div class="container">
+            <h1 class="sub-title">Our Successfull Works</h1>
+            <div class="work-list">
+               <div class="work">
+                  <img src="images/work-1.png">
+                  <div class="layer">
+                     <h3>Mirissa Whale Watching</h3>
+                     <p>Blue whales are the biggest animal live on the earth and Mirissa is the one of most suitable spot to watch blue whales and other whales too. </p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                  
+               </div>
+               <div class="work">
+                  <img src="images/work-2.png">
+                  <div class="layer">
+                     <h3>Yala National Park</h3>
+                     <p>This is the second largest national park in Sri Lanka.Yala is home to Asian elephants, leopards and variety of beautiful endemic birds.</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+               </div>
+               <div class="work">
+                  <img src="images/work-3.png">
+                  <div class="layer">
+                     <h3>Trekking and Hiking</h3>
+                     <p>With multitude of roads winding through expanding mountains, lush green forests, paddy fields, parks and sleepy villages, Sri Lanka offers a plethora of opportunities to the Keen hikers and trekkers. </p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+               </div>
+               
+            </div>
+            <a href="#" class="btn">See more</a>
+         </div>
+
+       </div>
+       <!----------------------------Contact---------------------------------------------------->
+       <div id="contact">
+         <div class="container">
+            <div class="row">
+               <div class="contact-left">
+                  <h1 class="sub-title">Contact Us</h1>
+                  <p><i class="fa-solid fa-paper-plane"></i> contact@travel.com</p>
+                  <p><i class="fa-solid fa-square-phone"></i> 0116459266</p>
+                  <div class="social-icons">
+                     <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                     <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                     <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></i></a>
+                     <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                  <a href="images/my-cv.pdf" download class="btn btn2">Download Guide</a>
+               </div>
+               <div class="contact-right">
+               <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="email" placeholder="Your email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <span id="msg"></span>
+            </div>
+         </div>
+      </div>
+      <div class="copyright">
+         <p>Copyright © TRAVEL. Made By <i class="fa-solid fa-heart"></i> Bemindu Jayodha </p>
+      </div>
+       </div>
+
+      <script>
+         var tablinks =document.getElementsByClassName("tab-links");
+         var tabcontents =document.getElementsByClassName("tab-contents");
+
+         function opentab(tabname){
+            for(tablink of tablinks){
+               tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+               tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         }
+         
+
+      </script>
+      <script>
+         var sidemenu =document.getElementById("sidemenu");
+
+         function openmenu(){
+            sidemenu.style.right ="0";
+
+         }
+         function closemenu(){
+            sidemenu.style.right ="-200px";
+            
+         }
+      </script>
+      <script>
+         const scriptURL = 'https://script.google.com/macros/s/AKfycbzD_EZ7WEcPm40Y8UY5M44Tm2RcM0wefjhKYnnsJiOkuTnOs8XXHxPItRQmcVU6DFNGLQ/exec'
+         const form = document.forms['submit-to-google-sheet']
+         const msg =document.getElementById("msg")
+       
+         form.addEventListener('submit', e => {
+           e.preventDefault()
+           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+             .then(response => {
+               msg.innerHTML ="Message sent successfully"
+               setTimeout(function(){
+                  msg.innerHTML =""
+               },5000)
+               form.reset()
+             })
+             .catch(error => console.error('Error!', error.message))
+         })
+       </script>
+   </body>
+</html>
